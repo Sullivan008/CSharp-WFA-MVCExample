@@ -1,0 +1,10 @@
+c:\users\kozak\source\repos\MVCWithWinForm\MVCWithWinForm\bin\Debug\MVCWithWinForm.exe.config
+c:\users\kozak\source\repos\MVCWithWinForm\MVCWithWinForm\bin\Debug\MVCWithWinForm.exe
+c:\users\kozak\source\repos\MVCWithWinForm\MVCWithWinForm\bin\Debug\MVCWithWinForm.pdb
+c:\users\kozak\source\repos\MVCWithWinForm\MVCWithWinForm\obj\Debug\MVCWithWinForm.csprojResolveAssemblyReference.cache
+c:\users\kozak\source\repos\MVCWithWinForm\MVCWithWinForm\obj\Debug\MVCWithWinForm.Properties.Resources.resources
+c:\users\kozak\source\repos\MVCWithWinForm\MVCWithWinForm\obj\Debug\MVCWithWinForm.csproj.GenerateResource.Cache
+c:\users\kozak\source\repos\MVCWithWinForm\MVCWithWinForm\obj\Debug\MVCWithWinForm.csproj.CoreCompileInputs.cache
+c:\users\kozak\source\repos\MVCWithWinForm\MVCWithWinForm\obj\Debug\MVCWithWinForm.exe
+c:\users\kozak\source\repos\MVCWithWinForm\MVCWithWinForm\obj\Debug\MVCWithWinForm.pdb
+c:\users\kozak\source\repos\MVCWithWinForm\MVCWithWinForm\obj\Debug\MVCWithWinForm.UserView.resources
