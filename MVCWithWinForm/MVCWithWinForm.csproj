@@ -32,33 +32,33 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controller\IUserView.cs" />
-    <Compile Include="Controller\UserController.cs" />
-    <Compile Include="Datas\Datas.cs" />
-    <Compile Include="View\UserView.cs">
+    <Compile Include="Controller\UserView\IUserController.cs" />
+    <Compile Include="Model\UserView\CreateOrEditUserViewModel.cs" />
+    <Compile Include="Model\JsonParser\UsersModel.cs" />
+    <Compile Include="Model\UserView\UserViewModel.cs" />
+    <Compile Include="Model\UserView\UserBaseViewModel.cs" />
+    <Compile Include="View\User\IUserView.cs" />
+    <Compile Include="Controller\UserView\UserController.cs" />
+    <Compile Include="Operations\User\UserOperation.cs" />
+    <Compile Include="View\User\UserView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\UserView.Designer.cs">
+    <Compile Include="View\User\UserView.Designer.cs">
       <DependentUpon>UserView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\SexOfPerson.cs" />
-    <Compile Include="Model\User.cs" />
+    <Compile Include="Enum\UserView\SexOfUser.cs" />
     <Compile Include="MVCWithWinForm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="View\UserView.resx">
+    <EmbeddedResource Include="View\User\UserView.resx">
       <DependentUpon>UserView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -70,6 +70,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="App_Data\users.json" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

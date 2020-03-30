@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "Id": "96dfb9a5-136f-4595-a39d-b9c947f0e990",
+      "FirstName": "Test",
+      "LastName": "A",
+      "Department": "First Department",
+      "Sex": "0"
+    },
+    {
+      "Id": "b381a396-b49b-461e-920c-da8025925f53",
+      "FirstName": "Test",
+      "LastName": "B",
+      "Department": "Second Department",
+      "Sex": "1"
+    }
+  ]
+}
